@@ -3,10 +3,10 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CAH.Controllers
 {
-    public class BlackCardsController : Controllers
+    public class GameController : Controllers
     {
         private readonly CAHContext _db;
-        public BlackCardsController (CAHContext db)
+        public GameController (CAHContext db)
         {
             _db = db;
         }
